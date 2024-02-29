@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+}
+ 
+h1 {
+	color: black;
+	font-family: 'calibri', cursive;
+	font-size: 100px;
+}
+ 
+h2 {
+	color: lightcoral;
+	font-family: 'calibri';
+	font-size: 50px;
+}
+ 
+h3 {
+	color: white;
+	font-family: 'Times New Roman';
+	font-size: 25px;
+}
+ 
+h4 {
+	font-family: 'Times New Roman';
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+ 
+h5 {
+	color: pink;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'calibri';
+	margin: 20px;
+}
+ 
+a {
+	color: white;
+	text-align: center;
+}
+ 
+img {
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+h4 {
+	color: coral;
+	font-weight: bold;
+}
+ 
+.banner {
+	padding: 50px 100px;
+	text-align: center;
+}
+ 
+.banner p {
+	font-size: 38px;
+}
+ 
+.academic-cursus {
+	padding: 80px 80px;
+	background-color: pink;
+}
+ 
+p {
+	text-align: center;
+}
+ 
+.experiences {
+	background-color: white;
+	padding: 40px 40px;
+}
+ 
+.cards {
+	margin: 50px 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.card {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px 20px;
+	box-shadow: 10px 10px 10px black;
+}
+ 
+.button {
+	background-color: white;
+	padding: 5px 5px;
+	border-radius: 50px;
+}
+ 
+.footer {
+	background-color: black;
+	padding: 30px 30px;
+}
+ 
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card-white {
+    width: auto;
+  }
